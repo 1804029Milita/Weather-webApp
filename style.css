@@ -49,25 +49,43 @@ body{
     
 }
 .weather-icon{
-    width: 170px;
+    width: 120px;
     margin-top: 30px;
 
 }
 .hum{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 80px;
+    margin-right: 10px;
     
 }
 .wind{
-    width: 100px;
+    width: 110px;
     height: 100px;
+    padding-left: 30px;
 }
-.weather h1{
+.Weather h1{
     font-size: 80px;
     font-weight: 500;
 }
-.weather h2{
+.Weather h2{
     font-size: 45px;
     font-weight: 400;
     margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.humidity, .Windy{
+    font-size: 28px;
+    margin-top: -6px;
 }
